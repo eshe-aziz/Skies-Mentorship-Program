@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .navbar {
+    display: flex;
+    height: 50px;
+    text-align: center;
+    font-size: 20px;
+    top: 1%;
+    left: 50%;
+    float: none;
+    position: absolute;
+    transform: translate(-50%, -50%);
+  }
+
+  .navbar a {
+    display: block;
+    float: left;
+    border-bottom: 0.15em solid #ffffff;
+    padding: 30px;
+    text-decoration: none;
+  }
+
+  .navbar a:hover {
+    background-color: #f1f1f1;
+    border-bottom: 0.15em solid #E92D90;
+  }
+
+  .logo{
+    padding-left: 100px;
+    padding-top: 20px;
+  }
+
+.born{
+  display: flex;
+}
+
+  .book{
+    text-align: left;
+    margin-left: 150px;
+  }
+
+  .trevor{
+    margin-top: 90px;
+    width: 350px;
+    margin-left: 20px;
+  }
+
+  .novel{
+    font-size: 50px;
+  }
+  .prg{
+    font-weight: 400;
+  }
+
+  @media screen and (max-width: 600px){
+    .trevor{
+      width: 100px;
+    }
+
+    .novel{
+      font-size: 30px;
+    }
+
+    .prg{
+      text-align: center;
+      font-size: 20px;
+    }
+    .book{
+      text-align: left;
+      margin-left: 70px;
+    }
+  }

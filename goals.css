@@ -68,7 +68,53 @@
   }
   
 
-  @media screen and (max-width: 600px){
+  /* @media screen and (max-width: 600px){
+    .goals{
+      display: grid;
+      grid-template-columns: auto auto auto;
+      margin-top: 50px;
+    }
+
+    .mindset-one{
+      font-size: 20px;
+    }
+
+    .mindset-two{
+      width: 200px;
+    }
+
+    .mindset-three{
+      font-size: 18px;
+    }
+
+    .mindset-four{
+      font-size: 18px;
+    }
+
+    .mindset{
+      padding-left: 20px;
+    }
+
+    .img-mindset{
+      padding-left: 40px;
+      width: 200px;
+      border-radius: 50%;
+    }
+  } */
+
+  @media screen and (min-width:280px) and (max-width: 460px){
+    .navbar {
+      display: flex;
+      height: 50px;
+      text-align: center;
+      font-size: 15px;
+      top: 1%;
+      left: 50%;
+      float: none;
+      position: absolute;
+      transform: translate(-50%, -50%);
+    }
+
     .goals{
       display: grid;
       grid-template-columns: auto auto auto;

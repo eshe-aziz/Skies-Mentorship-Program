@@ -200,3 +200,17 @@ body{
         top: 30px;
         padding: 30px 40px;
     }
+
+    @media screen and (min-width:280px) and (max-width: 460px){
+      .container{
+        width: 40%;
+        min-width: 350px;
+        position: absolute;
+        margin: auto;
+        margin-top: 60px;
+        left: 0;
+        right: 0;
+        top: 30px;
+        padding: 30px 40px;
+    }
+    }

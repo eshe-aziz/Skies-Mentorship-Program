@@ -173,17 +173,17 @@
       }
     
       .trevor{
-        margin-top: 20px;
+        margin-top: 20%;
         width: 250px;
         margin-left: 20px;
       }
     
       .novel{
-        font-size: 0px;
+        font-size: 30px;
       }
       .prg{
         font-weight: 400;
-        font-size: 10px;
+        font-size: 13px;
       }
   }
 
@@ -234,10 +234,65 @@
       }
     
       .novel{
-        font-size: 0px;
+        font-size: 50px;
       }
       .prg{
         font-weight: 400;
         font-size: 20px;
+      }
+  }
+
+  @media screen and (min-width: 600px) and (max-width: 1024px){
+    .navbar {
+      display: flex;
+      height: 50px;
+      text-align: center;
+      font-size: 10px;
+      top: 1%;
+      left: 50%;
+      float: none;
+      position: absolute;
+      transform: translate(-50%, -50%);
+    }
+  
+    .navbar a {
+      display: block;
+      float: left;
+      border-bottom: 0.15em solid #ffffff;
+      padding: 20px;
+      text-decoration: none;
+    }
+  
+    .navbar a:hover {
+      background-color: #f1f1f1;
+      border-bottom: 0.15em solid #E92D90;
+    }
+  
+    .logo{
+      padding-left: 90px;
+      padding-top: 20px;
+    }
+
+    .born{
+      display: flex;
+    }
+    
+      .book{
+        text-align: left;
+        margin-left: 100px;
+      }
+    
+      .trevor{
+        margin-top: 20px;
+        width: 250px;
+        margin-left: 20px;
+      }
+    
+      .novel{
+        font-size: 30px;
+      }
+      .prg{
+        font-weight: 400;
+        font-size: 10px;
       }
   }

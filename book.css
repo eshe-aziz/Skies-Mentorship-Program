@@ -188,6 +188,9 @@
   }
 
   @media screen and (min-width: 1664px) and (max-width: 2560px){
+    body{
+      width: 100%;
+    }
     .navbar {
       display: flex;
       height: 50px;
